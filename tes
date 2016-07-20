@@ -1,0 +1,17 @@
+  1. Move the cursor to this line.
+
+  2. press  v  and move the cursor to the fifth item below.  notice that the
+     text is highlighted.
+
+  3. press the  :  character.  at the bottom of the screen  :'<,'> will appear.
+
+  4. type  w test  , where test is a filename that does not exist yet.  verify
+     that you see  :'<,'>w test  before you press <enter>.
+
+  5. vim will write the selected lines to the file test.  use  :!dir  or  :!ls
+     to see it.  do not remove it yet!  we will use it in the next lesson.
+
+note:  pressing  v  starts visual selection.  you can move the cursor around
+       to make the selection bigger or smaller.  then you can use an operator
+       to do something with the text.  for example,  d  deletes the text.
+
